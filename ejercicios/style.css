@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: hsl(291, 64%, 42%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Contenedor__titulo{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    left: 0;
+}
+
+
+.Contenedor__subtitulo {
+    text-align: center;
+    color: darkorange;
+    position: absolute;
+    font-size: 45px;
+    right: 0;
+    left: 0;
+    top: 26px;
+}
+
+.Cont {
+    background-color: hsl(291, 80%, 34%);
+    color: white;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.Cont a {
+    background-color: hsl(291, 80%, 34%);
+    color: white;
+    text-transform: uppercase;
+    
+}
