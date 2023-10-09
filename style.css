@@ -75,9 +75,9 @@ body {
 
 .Precio__producto {
     font-size: 23px;
-    color: hsl(48, 100%, 50%);
-    
+    color: hsl(48, 100%, 50%); 
 }
+
 .Nombre__producto, .Precio__producto {
     margin: 8px;
     text-align: center;
@@ -87,7 +87,6 @@ img{
     width: 100%
 }
 
-
 .Catalogo {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(365px, 1fr));
@@ -95,15 +94,12 @@ img{
     padding: 5%;
 }
 
-
 @media (min-width: 1000px) {
     .Catalogo {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
-
 
 @media (min-width: 1000px) {
     .Foto {
